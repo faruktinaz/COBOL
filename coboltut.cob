@@ -56,5 +56,19 @@
 		   DIVIDE Num1 INTO Num2 GIVING ANS REMAINDER Rem
 		   DISPLAY "REMAINDER " REM
 
+		   ADD Num1, Num2, TO Num3 GIVING ANS
+		   ADD Num1, Num2, Num3 GIVING ANS
+		   DISPLAY ANS
+		   COMPUTE ANS = Num1 + Num2
+		   COMPUTE ANS = Num1 - Num2
+		   COMPUTE ANS = Num1 * Num2
+		   COMPUTE ANS = Num1 / Num2
+		   DISPLAY ANS
+		   COMPUTE ANS = Num1 ** 2
+		   DISPLAY ANS
+		   COMPUTE ANS = (3 + 5) * 5
+		   DISPLAY ANS
+		   COMPUTE ANS ROUNDED = 3.0 + 2.005
+		   DISPLAY ANS
 
 	   STOP RUN.
